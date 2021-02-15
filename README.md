@@ -2,7 +2,7 @@ Hybrid Test Automation Framework for a Web Application using Data Driven and Key
 
 This is a project to demonstrate the design of a Hybrid Test Automation Framework using :
 
-1  Selenium/Java as the Automation-tool/binding language 
+1. Selenium/Java as the Automation-tool/binding language 
 
 2. Page Object Model as the design pattern
 
