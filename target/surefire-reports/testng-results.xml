@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="150208" started-at="2021-02-15T19:02:19Z" finished-at="2021-02-15T19:04:49Z">
+    <groups>
+      <group name="loginModule">
+        <method signature="KeywordLoginTest.keywordLoginTest()[pri:0, instance:com.webapp.tests.KeywordLoginTest@13a57a3b]" name="keywordLoginTest" class="com.webapp.tests.KeywordLoginTest"/>
+        <method signature="LandingPageTest.verifyLandingPageTitleTest()[pri:0, instance:com.webapp.tests.LandingPageTest@7f560810]" name="verifyLandingPageTitleTest" class="com.webapp.tests.LandingPageTest"/>
+        <method signature="LandingPageTest.verifyLogoutPageTitleTest()[pri:1, instance:com.webapp.tests.LandingPageTest@7f560810]" name="verifyLogoutPageTitleTest" class="com.webapp.tests.LandingPageTest"/>
+        <method signature="LoginTest.loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webapp.tests.LoginTest@69d9c55]" name="loginTest" class="com.webapp.tests.LoginTest"/>
+      </group> <!-- loginModule -->
+    </groups>
+    <test name="Test" duration-ms="150208" started-at="2021-02-15T19:02:19Z" finished-at="2021-02-15T19:04:49Z">
+      <class name="com.webapp.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.webapp.tests.HomePageTest@7ca48474]" name="setUp" is-config="true" duration-ms="4730" started-at="2021-02-15T11:04:27Z" finished-at="2021-02-15T11:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.webapp.tests.HomePageTest@7ca48474]" name="verifyHomePageTitle" duration-ms="7" started-at="2021-02-15T11:04:32Z" finished-at="2021-02-15T11:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webapp.tests.HomePageTest@7ca48474]" name="tearDown" is-config="true" duration-ms="153" started-at="2021-02-15T11:04:32Z" finished-at="2021-02-15T11:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webapp.tests.HomePageTest -->
+      <class name="com.webapp.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.webapp.tests.LoginTest@69d9c55]" name="setUp" is-config="true" duration-ms="94832" started-at="2021-02-15T11:02:28Z" finished-at="2021-02-15T11:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webapp.tests.LoginTest@69d9c55]" name="loginTest" duration-ms="2884" started-at="2021-02-15T11:04:03Z" data-provider="getExcelData" finished-at="2021-02-15T11:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ani.endeavor@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@2021]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webapp.tests.LoginTest@69d9c55]" name="tearDown" is-config="true" duration-ms="165" started-at="2021-02-15T11:04:06Z" finished-at="2021-02-15T11:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.webapp.tests.LoginTest@69d9c55]" name="setUp" is-config="true" duration-ms="5492" started-at="2021-02-15T11:04:06Z" finished-at="2021-02-15T11:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webapp.tests.LoginTest@69d9c55]" name="loginTest" duration-ms="3535" started-at="2021-02-15T11:04:12Z" data-provider="getExcelData" finished-at="2021-02-15T11:04:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webapp.tests.LoginTest@69d9c55]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-02-15T11:04:15Z" finished-at="2021-02-15T11:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webapp.tests.LoginTest -->
+      <class name="com.webapp.tests.LandingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.webapp.tests.LandingPageTest@7f560810]" name="setUp" is-config="true" duration-ms="6421" started-at="2021-02-15T11:02:19Z" finished-at="2021-02-15T11:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLandingPageTitleTest()[pri:0, instance:com.webapp.tests.LandingPageTest@7f560810]" name="verifyLandingPageTitleTest" duration-ms="3215" started-at="2021-02-15T11:02:25Z" finished-at="2021-02-15T11:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLandingPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webapp.tests.LandingPageTest@7f560810]" name="tearDown" is-config="true" duration-ms="167" started-at="2021-02-15T11:02:28Z" finished-at="2021-02-15T11:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.webapp.tests.LandingPageTest@7f560810]" name="setUp" is-config="true" duration-ms="9231" started-at="2021-02-15T11:04:32Z" finished-at="2021-02-15T11:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoutPageTitleTest()[pri:1, instance:com.webapp.tests.LandingPageTest@7f560810]" name="verifyLogoutPageTitleTest" duration-ms="7676" started-at="2021-02-15T11:04:41Z" finished-at="2021-02-15T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webapp.tests.LandingPageTest@7f560810]" name="tearDown" is-config="true" duration-ms="131" started-at="2021-02-15T11:04:49Z" finished-at="2021-02-15T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webapp.tests.LandingPageTest -->
+      <class name="com.webapp.tests.KeywordLoginTest">
+        <test-method status="PASS" signature="keywordLoginTest()[pri:0, instance:com.webapp.tests.KeywordLoginTest@13a57a3b]" name="keywordLoginTest" duration-ms="11269" started-at="2021-02-15T11:04:15Z" finished-at="2021-02-15T11:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keywordLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webapp.tests.KeywordLoginTest@13a57a3b]" name="tearDown" is-config="true" duration-ms="130" started-at="2021-02-15T11:04:27Z" finished-at="2021-02-15T11:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webapp.tests.KeywordLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
