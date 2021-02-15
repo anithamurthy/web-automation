@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50707" started-at="2021-02-12T19:25:00Z" finished-at="2021-02-12T19:25:51Z">
+    <groups>
+      <group name="loginModule">
+        <method signature="LandingPageTest.verifyLandingPageTitleTest()[pri:0, instance:com.webapp.tests.LandingPageTest@2b546384]" name="verifyLandingPageTitleTest" class="com.webapp.tests.LandingPageTest"/>
+        <method signature="LandingPageTest.verifyLogoutPageTitleTest()[pri:1, instance:com.webapp.tests.LandingPageTest@2b546384]" name="verifyLogoutPageTitleTest" class="com.webapp.tests.LandingPageTest"/>
+      </group> <!-- loginModule -->
+    </groups>
+    <test name="Default test" duration-ms="50707" started-at="2021-02-12T19:25:00Z" finished-at="2021-02-12T19:25:51Z">
+      <class name="com.webapp.tests.LandingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.webapp.tests.LandingPageTest@2b546384]" name="setUp" is-config="true" duration-ms="7446" started-at="2021-02-12T11:25:00Z" finished-at="2021-02-12T11:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLandingPageTitleTest()[pri:0, instance:com.webapp.tests.LandingPageTest@2b546384]" name="verifyLandingPageTitleTest" duration-ms="10107" started-at="2021-02-12T11:25:08Z" finished-at="2021-02-12T11:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLandingPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webapp.tests.LandingPageTest@2b546384]" name="tearDown" is-config="true" duration-ms="132" started-at="2021-02-12T11:25:18Z" finished-at="2021-02-12T11:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.webapp.tests.LandingPageTest@2b546384]" name="setUp" is-config="true" duration-ms="12490" started-at="2021-02-12T11:25:18Z" finished-at="2021-02-12T11:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoutPageTitleTest()[pri:1, instance:com.webapp.tests.LandingPageTest@2b546384]" name="verifyLogoutPageTitleTest" duration-ms="20389" started-at="2021-02-12T11:25:30Z" finished-at="2021-02-12T11:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webapp.tests.LandingPageTest@2b546384]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-02-12T11:25:51Z" finished-at="2021-02-12T11:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webapp.tests.LandingPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

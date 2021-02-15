@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.webapp.utils.Listener"/>
+    <listener class-name="com.webapp.reporting.ExtentReporter"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.webapp.tests.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.webapp.tests.LoginTest -->
+      <class name="com.webapp.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.webapp.tests.HomePageTest -->
+      <class name="com.webapp.tests.LandingPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLogoutPageTitleTest"/>
+          <include name="verifyLandingPageTitleTest"/>
+        </methods>
+      </class> <!-- com.webapp.tests.LandingPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
