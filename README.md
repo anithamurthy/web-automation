@@ -8,8 +8,8 @@ This is a project to demonstrate the design of a Hybrid Test Automation Framewor
 4. TestNg as the Test Framework  
 5. Data Provider for data driven testing
 6. Keyword driven framework
-5. Maven for build Automation
-6. Extent Reports for reporting
+7. Maven for build Automation
+8. Extent Reports for reporting
 
 Steps to run the project:
 
